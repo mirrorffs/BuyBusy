@@ -1,0 +1,57 @@
+.FilterBox{
+    margin-top: 20px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 206, 238);
+    height: 80vh;
+    border-radius: 20px;
+    padding: 10px;
+    position: sticky;
+    top: 140px;
+}
+
+.Header{
+    margin-bottom: 10px;
+    width: 100%;
+    border-bottom: rgb(190, 140, 236) solid 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.PriceRange{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Filter{
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.FilterTopic{
+    text-align: center;
+}
+
+.FilterOptions{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.CheckBox{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+input[type='checkbox'] {
+    height: 20px;
+    width: 20px;
+}

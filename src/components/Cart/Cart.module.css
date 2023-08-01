@@ -1,0 +1,128 @@
+.Cart{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.CartHeader{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.TotalPrice{
+    width: 80%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    line-height: 0.5;
+}
+
+.OrderButton{
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OrderButton button{
+    width: max-content;
+    height: 50px;
+    font-size: 1.5rem;
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.OrderButton button:hover{
+    background-color: rgb(1, 107, 1);
+}
+
+.CartItem{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    border: rgb(238, 206, 238) solid 5px;
+    padding: 20px;
+    position: relative;
+}
+
+.RemoveItem{
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    height: 60px;
+    width: 60px;
+    /* background-color: rgb(250, 6, 140); */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* color: white; */
+}
+
+.RemoveItem img{
+    height: 100%;
+    width: 100%;
+}
+
+.ItemDesc{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.ItemImage{
+    height: 150px;
+    width: 150px;
+    border: 2px solid rgb(190, 140, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ItemImage img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.AboutItem{
+    font-size: 1.2rem;
+    /* line-height: 0.5; */
+    margin: 10px;
+}
+
+.ItemQty{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+}
+
+.QtyImage{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.QtyImage img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.ReverseArrow{
+    transform: rotate(180deg);
+}

@@ -1,0 +1,111 @@
+.Navbar{
+    background-color: rgb(190, 140, 236);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.Logo{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.Menu{
+    display: flex;
+}
+
+.MenuItem{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.ItemImage{
+    height: 50px;
+    width: auto;
+}
+
+.ItemImage img{
+    height: 100%;
+    width: auto;
+}
+
+.ItemName{
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+
+.Cart{
+    position: relative;
+}
+
+.SignIn{
+    transform: rotate(180deg);
+}
+
+.Price{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(250, 6, 140);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.SearchBar{
+    height: 50px;
+    width: 500px;
+    background-color: white;
+    overflow: hidden;
+    border: rgb(238, 206, 238) solid 5px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.SearchBar input{
+    width: 85%;
+    height: 40px;
+    border: none;
+    font-size: 1.2rem;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.SearchBar input:focus{
+    outline: none;
+}
+
+.SearchBar .SearchImage{
+    height: 30px;
+    width: auto;
+}
+
+.SearchBar .SearchImage img{
+    height: 100%;
+    width: auto;
+}
+
+.Menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.Menu .Active{
+    color: brown;
+}

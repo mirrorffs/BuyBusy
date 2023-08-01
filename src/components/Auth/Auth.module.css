@@ -1,0 +1,59 @@
+.AuthForm{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(190, 140, 236);
+    border-radius: 20px;
+    margin: 100px;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.FormHeader{
+    width: 80%;
+    border-bottom: rgb(190, 140, 236) solid 2px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.FormItem{
+    margin-top: 20px;
+    width: 80%;
+    font-weight: bold;
+}
+
+
+.FormItem input{
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    border: rgb(190, 140, 236) solid 2px;
+    font-size: 1.2rem;
+}
+
+.FormItem input:focus{
+    outline: none;
+    border: rgb(178, 115, 236) solid 3px;
+}
+
+.ButtonItem{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ButtonItem button{
+    width: 40%;
+    height: 50px;
+    font-size: 1.5rem;
+    background-color: green;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.ButtonItem button:hover{
+    background-color: rgb(1, 107, 1);
+}

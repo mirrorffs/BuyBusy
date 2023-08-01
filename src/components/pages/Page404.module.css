@@ -1,0 +1,25 @@
+.errorPage {
+    text-align: center;
+    margin-top: 10rem;
+  }
+  
+  h1 {
+    margin-bottom: 2rem;
+  }
+  h2 {
+    margin-bottom: 2rem;
+  }
+  button {
+    background-color: blueviolet;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    height: 50px;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  button:hover{
+    background-color: rgb(138, 13, 255);
+  }
+  
