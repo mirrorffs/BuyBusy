@@ -1,4 +1,4 @@
-# BuyBusy
+# RushMart
 
 A simple shopping website for implementing cart and order.
 
